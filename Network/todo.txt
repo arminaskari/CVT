@@ -1,0 +1,6 @@
+-create route file with 10 cars
+-just change route file header for 0/100 
+-full trajectory of 2 reference cars with same destination with cars inbetween that go off elsewhere
+-one platoning trajectory plot too
+-eWorld
+- ../../../.././osm_convertor
