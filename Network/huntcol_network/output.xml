@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/02/16 18:00:45 by SUMO Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="network/huntcol.net.xml"/>
+        <route-files value="network/huntcol.rou.xml"/>
+        <additional-files value="network/huntcol.additional.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="test.xml"/>
+        <tripinfo-output value="tripinfo.xml"/>
+        <save-state.prefix value="network/state"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <emissions>
+        <phemlight-path value="network/./PHEMlight/"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="8873"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<vehicle-type-probes>
+    <timestep time="0.00" id="probe1" vType="">
+        <vehicle id="veh1" lane="G5_0" pos="5.10" x="6.93" y="900.42" speed="0.00"/>
+        <vehicle id="veh2" lane="F6b_0" pos="5.10" x="4498.09" y="6.97" speed="0.00"/>
+        <vehicle id="veh3" lane="F9b_0" pos="5.10" x="4082.68" y="107.28" speed="0.00"/>
+        <vehicle id="veh4" lane="F13b_0" pos="5.10" x="3473.45" y="126.90" speed="0.00"/>
+    </timestep>
+</vehicle-type-probes>
